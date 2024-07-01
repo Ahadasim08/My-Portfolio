@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahad Khan - Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ahad's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="section-left">
+                Hi, I am <span class="blue">Ahad</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="section-right">
+                <img src="imgs/dev_img.png" alt="">
+            </div>
+        </div>
+        <hr>
+
+        <section class="about">
+            <div>About me
+            <p>I am currently pursuing a Bachelor's degree in Computer Science from Forman Christian College (A Chartered University) in Lahore. Alongside my studies, I work as a Front-End Web Developer and a Content Writer. My skills and expertise lie in web development and content creation. In addition to my professional pursuits, I am also an avid gamer who loves to play games in my free time.</p></div>
+            <div><img class="my-img" src="imgs/about me.png" alt="Person logo"></div>
+        </section>
+         
+        <hr>
+
+        <section class="services">
+            <div>Services</div>
+            <div class="s-divs">
+                <p>	&rarr; Proficient in creating responsive websites</p>
+                <p>	&rarr; Skilled in writing engaging and informative articles</p>
+                <p>	&rarr; Capable of crafting well-structured and insightful essays</p>
+            </div>
+        </section>
+
+    </main>
+<hr class="last">
+    <footer>
+    <img src="imgs/contact-icon-png-4058.png" alt="Contact photo">
+    <div class="contact">Contact Me </div>
+    <div class="links">
+        <div>&#9993; Email: aahadkhan2423a@gmail.com</div>
+        <div><i class="fa-solid fa-phone"> Phone: +92 3099115388</i></div>
+    </div>
+   </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer, Content Writer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
